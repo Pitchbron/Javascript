@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - ให้เขียนโค้ดเพื่อ log province ของ product1
 - หากมี product2 เป็น object 
 ว่าง ให้ log province ของ 
@@ -20,4 +21,28 @@ const product1 = {
 };
 
 
+=======
+- ให้เขียนโค้ดเพื่อ log province ของ product1
+- หากมี product2 เป็น object 
+ว่าง ให้ log province ของ 
+product2 โดยใช้คำสั่งเดียวกับ 
+product1 
+- (หาก Error ให้หาวิธีแก้)
+
+```js
+const product1 = {
+  name: 'Water',
+  distributor: {
+    name: 'Giraffe Water Company',
+    address: {
+      street: 'Phetchaburi',
+      subdistrict: 'Thanonphetchaburi',
+      district: 'Ratchathewi',
+      province: 'Bangkok'
+    }
+  }
+};
+
+
+>>>>>>> 92010086ad3ced7bd2fee91c0912e46a886d5f1c
 ```
